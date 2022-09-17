@@ -30,7 +30,7 @@ include_once 'estructura/header.php';
                     <label for="actores" class="form-label"><strong>Actores</strong></label>
                     <input type="text" class="form-control" id="actores" name="actores" placeholder="Actores" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{4,48}" value="" required/>
                     <div class="invalid-feedback">
-                        Ingrese actores
+                        Ingrese actores (min. 4 caracteres)
                     </div>
                     <div class="valid-feedback">
                         Correcto!
@@ -42,7 +42,7 @@ include_once 'estructura/header.php';
                     pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{4,48}" value="" required/>
              
                     <div class="invalid-feedback">
-                        Ingrese director 
+                        Ingrese director (min. 4 caracteres) 
                     </div>
                     <div class="valid-feedback">
                         Correcto!

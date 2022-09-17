@@ -2,7 +2,7 @@
   <!-- Grid container -->
   <div class="container-fluid p-4 pb-0">
     <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: #dc3545;">
+  <div id="subfooter" class="text-center p-3">
     © 2022 Copyright:
     <a class="text-white" href="#">PWD</a>
   </div>
