@@ -1,14 +1,4 @@
-<?php /*
-echo $_POST['titulo']." titulo\n";
-echo $_POST['actores']." actores\n";
-echo $_POST['director']." director\n";
-echo $_POST['guion']." guion\n";
-echo $_POST['produccion']." produccion\n";
-echo $_POST['anio']." anio\n";
-echo $_POST['nacionalidad']." nacionalidad\n";
-echo $_POST['restriccion']." restriccion\n";
-echo $_POST['sinopsis']." sinopsis\n";
-echo $_POST['genero']." genero\n";*/
+<?php
 class tp3ejercicio3
 {
 
@@ -130,28 +120,7 @@ class tp3ejercicio3
         } else {
             $error = false;
         }
-        /*
-        //array de archivos disponibles
-        $archivos_disp_ar = array('jpg', 'jpeg', 'gif', 'png', 'tif', 'tiff', 'bmp');
-        //carpteta donde vamos a guardar la imagen
-        $directorio = '../uploads/img/';
-        if (!file_exists($directorio)) {
-            //si no existe crea la carpeta
-            mkdir($directorio, 0777, true);
-        }
-        $carpeta = $directorio . basename($_FILES['imagen']['name']);
-        //recibimos el campo de imagen
-        $tmp_dir = $_FILES['imagen']['tmp_name'];
-        //guardamos el nombre original de la imagen en una variable
-        $nombre = $_FILES['imagen']['name'];
-
-        $extension = pathinfo($nombre, PATHINFO_EXTENSION);
-
-  
-        if (!move_uploaded_file($tmp_dir, $carpeta)) {
-            echo "Error imagen de archivo no encontrado.";
-        }*/
-        
+      
         $directorio = '../uploads/img/';
 
         if (!file_exists($directorio)) {
